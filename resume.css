@@ -13,7 +13,8 @@ h1, h2, h3, h4, h5, h6, p, a, li {
   margin: 0 auto;
 }
 .resume .main .header {
-  /*border-bottom: 2px solid #ddd;*/
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
 }
 .resume .main .header .page-title-container {
   margin: 0 auto;
