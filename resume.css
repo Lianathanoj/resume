@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, p, a, li {
   margin: 0 auto;
 }
 .resume .main .header {
-  border-bottom: 2px solid #ddd;
+  /*border-bottom: 2px solid #ddd;*/
 }
 .resume .main .header .page-title-container {
   margin: 0 auto;
@@ -51,8 +51,8 @@ h1, h2, h3, h4, h5, h6, p, a, li {
   margin-right: 10px;
   padding-left: 5px;
   padding-right: 10px;
-  border-bottom: 1px solid #ddd;
-  border-right: 1px solid #ddd;
+  /*border-bottom: 1px solid #ddd;*/
+  /*border-right: 1px solid #ddd;*/
 }
 .resume .main .category-row .category-row-title {
   margin: 0.4rem 0;
@@ -71,12 +71,12 @@ h1, h2, h3, h4, h5, h6, p, a, li {
   font-size: smaller;
 }
 sidebar-category:last-of-type .category {
-  border-bottom: 0 !important;
+  /*border-bottom: 0 !important;*/
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
 }
 category:last-of-type category-item:last-of-type .category {
-  border-bottom: 0 !important;
+  /*border-bottom: 0 !important;*/
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
 }
