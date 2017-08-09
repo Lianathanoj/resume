@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6, p, a, li {
   padding-bottom: 5px;
 }
 .resume .main .header .page-title {
-  font-size: 48pt;
+  font-size: 45pt;
   display: inline;
 }
 .resume .main .header .page-title-first {
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6, p, a, li {
   text-align: center;
 }
 .resume .main .header .header-icons .page-subhead {
-  margin: 1rem 15px;
+  margin: 1rem 6px;
   display: inline;
 }
 .resume .main .header .fa {
