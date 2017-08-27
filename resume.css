@@ -8,9 +8,6 @@
 .category-row-title {
   font-size: 20px;
 }
-.category-bullets {
-  padding-left: 20px;
-}
 h1, h2, h3, h4, h5, h6, p, a, li {
   font-family: 'Raleway', sans-serif;
 }
@@ -35,7 +32,7 @@ h1, h2, h3, h4, h5, h6, p, a, li {
   padding-bottom: 5px;
 }
 .resume .main .header .page-title {
-  font-size: 45pt;
+  font-size: 40pt;
   display: inline;
 }
 .resume .main .header .page-title-first {
@@ -79,6 +76,12 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 .resume .main .category-row .category-bullets {
   margin-top: 5px;
   margin-bottom: 5px;
+  padding-left: 20px;
+}
+.resume .main .category-row .category-bullets-indented {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 25px;
 }
 .resume .main .category-row p,
 .resume .main .category-row li {
