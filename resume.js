@@ -36,4 +36,11 @@ angular.module("Resume", ["ngMaterial"]).directive("resume", function () {
         transclude: !0,
         template: '<div class="category">\n        <h5 class="category-title md-body-2">{{title}}</h5>&nbsp;\n        <h5 class="category-subtitle md-caption">{{subtitle}}</h5>\n        <ul class="category-bullets" ng-transclude></ul>\n    </div>'
     }
+}).directive("categoryItemHref", function () {
+    return {
+        restrict: "E",
+        scope: {title: "@", href: "@", subtitle: "@"},
+        transclude: !0,
+        template: '<div class="category">\n        <a style="text-decoration: none; color:inherit" href={{href}}><h5 class="category-title md-body-2">{{title}}</h5></a>&nbsp;\n        <h5 class="category-subtitle md-caption">{{subtitle}}</h5>\n        <ul class="category-bullets" ng-transclude></ul>\n    </div>'
+    }
 });
